@@ -1,0 +1,10 @@
+{
+	"id": "trackmyproduct",
+	"name": "TrackMyProduct",
+	"version": "0.1.0",
+	"minAppVersion": "1.4.0",
+	"description": "Track second-hand marketplace listings, saved searches and price history against your own vault, backed by a local TrackMyProduct daemon.",
+	"author": "gauv2",
+	"authorUrl": "https://github.com/gauv2",
+	"isDesktopOnly": false
+}

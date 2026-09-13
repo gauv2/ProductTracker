@@ -1,0 +1,24 @@
+{
+	"name": "trackmyproduct",
+	"version": "0.1.0",
+	"description": "TrackMyProduct Obsidian plugin — GUI over the TrackMyProduct vault + daemon",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck -p tsconfig.json && node esbuild.config.mjs production"
+	},
+	"keywords": [],
+	"author": "gauv2",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.11.5",
+		"builtin-modules": "^3.3.0",
+		"esbuild": "^0.20.2",
+		"obsidian": "^1.5.7",
+		"tslib": "^2.6.2",
+		"typescript": "^5.4.5"
+	},
+	"allowScripts": {
+		"esbuild@0.20.2": true
+	}
+}
